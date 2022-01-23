@@ -22,4 +22,4 @@ jobs:
     - name: Triggring spinnaker workflow
       run: |
         echo "qwert"
-        curl http://a02be9406d91144149d3f5bed363c6cd-1098001009.ap-south-1.elb.amazonaws.com/webhooks/webhook/test -X POST -H "content-type: application/json" -d "{ \"key\": \"value\" }"
+        curl http://a02be9406d91144149d3f5bed363c6cd-1098001009.ap-south-1.elb.amazonaws.com/webhooks/webhook/testing -X POST -H "content-type: application/json" -d "{ \"key\": \"value\" }"
